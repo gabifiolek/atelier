@@ -1,0 +1,10 @@
+<div>
+  Hello!<br>
+  Your book reservation <b>has been confirmed</b>.
+  <br><br>
+  Your reservation:</br>
+  <b><%= @book.title %></b><br>
+  ISBN: <i><%= @book.isbn %></i>
+  <br><br>
+  Your reservation expires at: <i><%= @reservation.expires_at.to_date %></i>
+</div>

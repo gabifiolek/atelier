@@ -1,0 +1,2 @@
+Hello <%= @user.name %>!
+Please <%= link_to 'confirm', user_confirm_email_url(@user.token, host: "localhost:3000") %> your email address.
