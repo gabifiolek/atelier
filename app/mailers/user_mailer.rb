@@ -5,7 +5,7 @@ class UserMailer < ApplicationMailer
   def confirm_email(user, email)
     @user = user
 
-    mail(to: email, subject: 'Potwierdź adres email')
+    mail(to: email, subject: 'Confirm your email address')
   end
 
   def unsubscribe
